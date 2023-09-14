@@ -1,0 +1,66 @@
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    height: 40px;
+    background: #636363;
+    width: 100%;
+    border: 1px solid white;
+}
+ul{
+    display:flex;
+    justify-content: center;
+}
+ul li {
+    padding: 10px 40px;
+}
+ul li a{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.container .shape1{
+    background: linear-gradient(yellow, red);
+    padding: 100px 50px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgb(0 0 0 / 19%);
+}
+.container .shape2{
+    background: radial-gradient(yellow, green);
+    padding: 100px 50px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 5px 10px 5px rgb(0 0 0 / 19%);
+}
+.container .shape3{
+    background-image: linear-gradient(to right top, #14dfd8, #00c5f7, #00a4ff, #0077ff, #7d12eb);
+    padding: 100px 50px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 5px rgb(0 0 0 / 19%);
+}
+.container .shape4{
+    background-image: linear-gradient(to right top, #3adf14, #9cbb00, #cc9100, #e65f00, #eb122b);
+    padding: 100px 50px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    box-shadow: 10px 0px 5px rgb(0 0 0 / 19%);
+}
+.container .shape5{
+    background-image: linear-gradient(to right top, #141adf, #ef008d, #ff002d, #f59d00, #a4eb12);
+    padding: 100px 50px;
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 5px 5px 10px rgb(0 0 0 / 19%);
+}
+
