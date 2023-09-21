@@ -1,0 +1,19 @@
+*{
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+      .box {
+        display: flex;
+        justify-content: space-around;
+        margin: 10px;
+      }
+
+      .box .shape {
+        padding: 200px 140px;
+        border-radius: 10px;
+        background-color: blueviolet;
+      }
+      .container{
+        margin: 150px;
+      }
