@@ -31,7 +31,7 @@ ul li a{
 }
 
 .container .shape1{
-    background: linear-gradient(yellow, red);
+    background: linear-gradient(rgb(254, 254, 103), red);
     padding: 100px 50px;
     border-radius: 10px;
     box-shadow: 10px 10px 5px rgb(0 0 0 / 19%);
