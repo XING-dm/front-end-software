@@ -20,13 +20,43 @@
 
 // alert("");
 
-let Choice = prompt("sholteai ustai hool ideh uu: ");
+let Choice = prompt("sholteai ustai hool ideh uu: 1. tiim  2.ugui");
 
-if(Choice == 1)
-    Choice = prompt("banshtai tsai avah uu: ")
-    if(Choice == 1)
-        alert("banshtai tsai");
-    if(Choice == 2)
-        alert("budaatai tsai");
-if(Choice == 2)
-    Choice = promt("")
+if(Choice == 1){
+    husel = prompt("tsai avah uu: 1. tiim  2.ugui");
+    if(husel == 1){
+        S = prompt("bansgtai yu: 1.tiim 2. ugui");
+        if(S == 1)
+            alert("banshtai tsai");
+        if(S == 2)
+            alert("budaatai tsai");
+    }
+    if(husel == 2){
+        Songolt = prompt("yutai shol ideh ve: 1.guril 2.puntuuz 3.goimon 4.bansh 5.mah 6.nogootoi");
+        if(Songolt == 1)
+            alert("lavsha");
+        if(Songolt == 2)
+            alert("huitsai");
+        if(Songolt == 3)
+            alert("goimontoi shol");
+        if(Songolt == 4)
+            alert("banshtai shol");
+        if(Songolt == 5)
+            alert("har shol");
+        if(Songolt == 6)
+            alert("nogootoi shol");
+    }
+}
+if (Choice == 2){
+    m = prompt("mah in tatsan uuu: 1.tiim 2.ugui");
+    if(m == 1){
+        Songolt = prompt("Guriltai yu budaatai yu: 1.tiim, 2.ugui");
+        if(Songolt == 1)
+            alert("lavsha");
+        if(Songolt == 2)
+            alert("huitsai");
+    }
+    if(m == 2){
+        alert("huitsai");
+    }
+}
