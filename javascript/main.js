@@ -7,18 +7,17 @@
 
 
 
-// let NewPassword = prompt("ta shine nuuts ugee oruulna uu: ");
-// let NewPasswords = prompt("batalgaajuulah nuuts ig oruulna uu: ");
+// let negdugeer = prompt("ta nuuts ugee oruulj ogno uu: ");
+// let negdugeerbat = prompt("batatgah nuuts ug: ");
 
-// if(NewPassword != 0)
-//     if(NewPassword == NewPasswords)
-//         alert("tani oruulsan nuuts ug taarch bn");
+// if(negdugeer != 0)
+//     if(negdugeer == negdugeerbat)
+//         alert("nuuts ug taarlaa");
 //     else
-//         alert("oruulsan nuuts ug taarahgui bn:");
+//         alert("hoyr code taarahgui bn");
 // else
-//     alert("2 nuuts ug bolon 1 in hooson hooson bn");
+//     alert("Hoyulaa hooson baina dahin shalgana uu");
 
-// alert("");
 
 
 
@@ -107,18 +106,18 @@
 
 
 
-let number = prompt("ta toogoo oruulna uu: ");
+// let number = prompt("ta toogoo oruulna uu: ");
 
-if(number % 2 ==0){
-   if(number % 3 ==0){
-        alert("3 t huvaagddag too tegsh too ")
-   }else{
-    alert("3 huvaagddaggui tegsh too ")
-   }
-} else if(number % 2==1){
-    if(number % 3 ==1){
-        alert("3 t huvaagddag too sondgoi too ")
-    }else if(number % 4 ==0){
-            alert("4t huvaagddahg tegsh too ")
-    }
-}
+// if(number % 2 ==0){
+//    if(number % 3 ==0){
+//         alert("3 t huvaagddag too tegsh too ")
+//    }else{
+//     alert("3 huvaagddaggui tegsh too ")
+//    }
+// } else if(number % 2==1){
+//     if(number % 3 ==1){
+//         alert("3 t huvaagddag too sondgoi too ")
+//     }else if(number % 4 ==0){
+//             alert("4t huvaagddahg tegsh too ")
+//     }
+// }
