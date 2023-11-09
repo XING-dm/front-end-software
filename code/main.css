@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    display: flex;
+    background-color: rgba(105, 105, 105, 0.281);
+}
+.navbar{
+    position: relative;
+    width: 30%;
+    background-color: white;
+    height: 850px;
+}
+.navbar h2{
+    color: cadetblue;
+}
+.navbar .head{
+    margin-left: 10px;
+}
+.navbar ul{
+    padding-bottom: 10px;
+}
+.navbar ul li{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    font-size: larger;
+}
+.navbar ul li a{
+    color: black;
+}
+.content{
+    width: 100%;
+}
+.content .header{
+    padding: 15px;
+    top: 0;
+    margin-left: 15px;
+    background-color: rgb(255, 255, 255);
+}
+.content .header .header_text{
+    display: flex;
+    justify-content: space-between;
+}
+.content .header .header_text_clone{
+    display: flex;
+    justify-content: space-between;
+}
+.content .header .header_text_clone p{
+    padding: 10px 25px;
+}
+.content .header .header_text_clone h3{
+    margin: 7px 0px;
+}
+.content .header .header_text p{
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0);
+}
+.content .header .header_text .with{
+    display: flex;
+}
+.content .header .header_text .with p{
+    padding: 6px;
+    border: none;
+    border-radius: 0px;
+}
+.content .header .product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+.content .header .item{
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 50px;
+    height: auto;
+    transition: 1s;
+}
+.content .header .item:hover{
+    transform: rotate(360deg);
+}
+.content .header .item img{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.main .list{
+    width: 215px;
+    margin: 5px;
+    background-color: white;  
+    transition: 1s;
+}
+.main .list:hover{
+    transform: scale(0.75);
+}
+.main .list img{
+    width: 100%;
+    height: auto;
+}
+.main .list .ic img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.main .list .ic{
+    position: absolute;
+    display: flex;
+    width: 30px;
+    margin: 5px;
+}
+.main .list .ic p{
+    position: absolute;
+    display: flex;
+    width: 30px;
+    margin-left: 150px;
+    padding:5px 15px;
+    border: 1px solid yellow;
+    border-radius: 10px;
+}
+.main .list h3{
+    padding: 5px;
+}
+.main .list p{
+    padding: 5px;
+    color: gray;
+}
+.content .header .menu .navi .list img{
+    width: 100%;
+    height: auto;
+}
+.content .header .menu .navi .list{
+    width: 20px;
+    height: auto;
+    display: flex;
+}
+.content .header .menu .navi{
+display: flex;
+justify-content: space-between;
+}
+.content .header .menu{
+    display: none;
+}
+
+@media screen and (max-width: 450px) {
+    .navbar{
+        display: none;
+    }
+    .content .header .menu{
+        display: contents;
+    }
+    .content .header{
+        margin-left: 0px;
+    }
+    .main .list{
+        width: 200px;
+    }
+    .main .list .ic p{
+        margin-left: 130px;
+    }
+    .content .header .header_text{
+        display: none;
+    }
+    .content .header .header_text_clone{
+        display: none;
+    }
+    .content .header .product{
+        display: none;
+    }
+    .content .header{
+        padding: 0px;
+    }
+    .content .header .menu .navi{
+        display: flex;
+        justify-content: space-between;
+        background-color: purple;
+        padding: 10px;
+    }
+    .content .header .menu .navi h2{
+        padding: 5px;
+    }
+    .content .header .menu .navi .list{
+        width: 115px;
+        display: flex;
+        height: auto;
+    }
+    .content .header .menu .navi .list .num{
+        margin: 5px;
+        display: flex;
+        margin-left: 0px;
+    }
+    .content .header .menu .sort{
+        display: flex;
+        justify-content: space-around;
+        padding: 4px;
+        
+    }
+    .content .header .menu .sort p{
+        padding: 10px 60px;
+        border: 1px solid gray;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 1s;
+    }
+    .content .header .menu .sort p:hover{
+        background-color: aqua;
+    }
+
+}
+
+
