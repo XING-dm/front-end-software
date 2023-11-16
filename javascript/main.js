@@ -106,18 +106,3 @@
 
 
 
-// let number = prompt("ta toogoo oruulna uu: ");
-
-// if(number % 2 ==0){
-//    if(number % 3 ==0){
-//         alert("3 t huvaagddag too tegsh too ")
-//    }else{
-//     alert("3 huvaagddaggui tegsh too ")
-//    }
-// } else if(number % 2==1){
-//     if(number % 3 ==1){
-//         alert("3 t huvaagddag too sondgoi too ")
-//     }else if(number % 4 ==0){
-//             alert("4t huvaagddahg tegsh too ")
-//     }
-// }
