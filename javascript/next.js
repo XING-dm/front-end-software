@@ -150,7 +150,7 @@
 
 
 let alphabet = 'abcdefghijklmnopqrstuvwxyz';
-let input = prompt('Enter a word:', '').toLowerCase();
+let input = prompt('ugee oruulna uu:', '').toLowerCase();
 let result = [];
 
 for (let i = 0; i < input.length; i++) {
@@ -159,4 +159,4 @@ for (let i = 0; i < input.length; i++) {
     }
 }
 
-alert('The letters of the word are multiple letters of the alphabet. Their positions are: ' + result.join(', '));
+alert(result.join(', '));
